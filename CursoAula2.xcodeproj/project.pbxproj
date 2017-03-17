@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C75453691E6ADDBA004C6CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75453681E6ADDBA004C6CA1 /* AppDelegate.swift */; };
-		C754536B1E6ADDBA004C6CA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754536A1E6ADDBA004C6CA1 /* ViewController.swift */; };
-		C754536E1E6ADDBA004C6CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C754536C1E6ADDBA004C6CA1 /* Main.storyboard */; };
-		C75453711E6ADDBA004C6CA1 /* CursoAula2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C754536F1E6ADDBA004C6CA1 /* CursoAula2.xcdatamodeld */; };
-		C75453731E6ADDBA004C6CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75453721E6ADDBA004C6CA1 /* Assets.xcassets */; };
-		C75453761E6ADDBA004C6CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75453741E6ADDBA004C6CA1 /* LaunchScreen.storyboard */; };
+		C70604BC1E742C8400D9B4D9 /* SignInUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70604BB1E742C8400D9B4D9 /* SignInUpViewController.swift */; };
+		C70604BE1E74424B00D9B4D9 /* RealizaLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70604BD1E74424B00D9B4D9 /* RealizaLoginViewController.swift */; };
+		C754538E1E6AF05C004C6CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C754538D1E6AF05C004C6CA1 /* Assets.xcassets */; };
+		C75453921E6AF0B6004C6CA1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C75453911E6AF0B6004C6CA1 /* Info.plist */; };
+		C75453981E6AF1B9004C6CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75453971E6AF1B9004C6CA1 /* AppDelegate.swift */; };
+		C754539B1E6AF1E4004C6CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75453991E6AF1E4004C6CA1 /* LaunchScreen.storyboard */; };
+		C75453A01E6AF27A004C6CA1 /* CursoAula2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C754539E1E6AF27A004C6CA1 /* CursoAula2.xcdatamodeld */; };
+		C75453A21E6AF429004C6CA1 /* SignInUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75453A11E6AF429004C6CA1 /* SignInUpStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C70604BB1E742C8400D9B4D9 /* SignInUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInUpViewController.swift; sourceTree = "<group>"; };
+		C70604BD1E74424B00D9B4D9 /* RealizaLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealizaLoginViewController.swift; sourceTree = "<group>"; };
 		C75453651E6ADDBA004C6CA1 /* CursoAula2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoAula2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75453681E6ADDBA004C6CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C754536A1E6ADDBA004C6CA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C754536D1E6ADDBA004C6CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C75453701E6ADDBA004C6CA1 /* CursoAula2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CursoAula2.xcdatamodel; sourceTree = "<group>"; };
-		C75453721E6ADDBA004C6CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C75453751E6ADDBA004C6CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C75453771E6ADDBA004C6CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C754538D1E6AF05C004C6CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75453911E6AF0B6004C6CA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75453971E6AF1B9004C6CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C75453991E6AF1E4004C6CA1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C754539F1E6AF27A004C6CA1 /* CursoAula2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CursoAula2.xcdatamodel; sourceTree = "<group>"; };
+		C75453A11E6AF429004C6CA1 /* SignInUpStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignInUpStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +59,96 @@
 		C75453671E6ADDBA004C6CA1 /* CursoAula2 */ = {
 			isa = PBXGroup;
 			children = (
-				C75453681E6ADDBA004C6CA1 /* AppDelegate.swift */,
-				C754536A1E6ADDBA004C6CA1 /* ViewController.swift */,
-				C754536C1E6ADDBA004C6CA1 /* Main.storyboard */,
-				C75453721E6ADDBA004C6CA1 /* Assets.xcassets */,
-				C75453741E6ADDBA004C6CA1 /* LaunchScreen.storyboard */,
-				C75453771E6ADDBA004C6CA1 /* Info.plist */,
-				C754536F1E6ADDBA004C6CA1 /* CursoAula2.xcdatamodeld */,
+				C75453801E6AE1CD004C6CA1 /* Source */,
+				C754538A1E6AEF4B004C6CA1 /* Resource */,
+				C75453841E6AEDC6004C6CA1 /* View */,
 			);
 			path = CursoAula2;
+			sourceTree = "<group>";
+		};
+		C75453801E6AE1CD004C6CA1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C75453851E6AEE0D004C6CA1 /* SignInUp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C75453841E6AEDC6004C6CA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C75453971E6AF1B9004C6CA1 /* AppDelegate.swift */,
+				C75453861E6AEE23004C6CA1 /* SignInUp */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C75453851E6AEE0D004C6CA1 /* SignInUp */ = {
+			isa = PBXGroup;
+			children = (
+				C75453871E6AEE3F004C6CA1 /* Controllers */,
+			);
+			path = SignInUp;
+			sourceTree = "<group>";
+		};
+		C75453861E6AEE23004C6CA1 /* SignInUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignInUp;
+			sourceTree = "<group>";
+		};
+		C75453871E6AEE3F004C6CA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C70604BB1E742C8400D9B4D9 /* SignInUpViewController.swift */,
+				C70604BD1E74424B00D9B4D9 /* RealizaLoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C754538A1E6AEF4B004C6CA1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C754538B1E6AEF8E004C6CA1 /* DataModel */,
+				C754538C1E6AEFE0004C6CA1 /* Images */,
+				C75453901E6AF08A004C6CA1 /* PLists */,
+				C75453961E6AF108004C6CA1 /* Storyboards */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C754538B1E6AEF8E004C6CA1 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C754539E1E6AF27A004C6CA1 /* CursoAula2.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		C754538C1E6AEFE0004C6CA1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C754538D1E6AF05C004C6CA1 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C75453901E6AF08A004C6CA1 /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+				C75453911E6AF0B6004C6CA1 /* Info.plist */,
+			);
+			path = PLists;
+			sourceTree = "<group>";
+		};
+		C75453961E6AF108004C6CA1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C75453991E6AF1E4004C6CA1 /* LaunchScreen.storyboard */,
+				C75453A11E6AF429004C6CA1 /* SignInUpStoryboard.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +210,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75453761E6ADDBA004C6CA1 /* LaunchScreen.storyboard in Resources */,
-				C75453731E6ADDBA004C6CA1 /* Assets.xcassets in Resources */,
-				C754536E1E6ADDBA004C6CA1 /* Main.storyboard in Resources */,
+				C75453921E6AF0B6004C6CA1 /* Info.plist in Resources */,
+				C754538E1E6AF05C004C6CA1 /* Assets.xcassets in Resources */,
+				C75453A21E6AF429004C6CA1 /* SignInUpStoryboard.storyboard in Resources */,
+				C754539B1E6AF1E4004C6CA1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,32 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75453711E6ADDBA004C6CA1 /* CursoAula2.xcdatamodeld in Sources */,
-				C754536B1E6ADDBA004C6CA1 /* ViewController.swift in Sources */,
-				C75453691E6ADDBA004C6CA1 /* AppDelegate.swift in Sources */,
+				C70604BC1E742C8400D9B4D9 /* SignInUpViewController.swift in Sources */,
+				C75453A01E6AF27A004C6CA1 /* CursoAula2.xcdatamodeld in Sources */,
+				C70604BE1E74424B00D9B4D9 /* RealizaLoginViewController.swift in Sources */,
+				C75453981E6AF1B9004C6CA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C754536C1E6ADDBA004C6CA1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C754536D1E6ADDBA004C6CA1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C75453741E6ADDBA004C6CA1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C75453751E6ADDBA004C6CA1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C75453781E6ADDBA004C6CA1 /* Debug */ = {
@@ -262,7 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CursoAula2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CursoAula2/Resource/PLists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.CursoAula2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CursoAula2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CursoAula2/Resource/PLists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.CursoAula2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,16 +368,17 @@
 				C754537C1E6ADDBA004C6CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C754536F1E6ADDBA004C6CA1 /* CursoAula2.xcdatamodeld */ = {
+		C754539E1E6AF27A004C6CA1 /* CursoAula2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C75453701E6ADDBA004C6CA1 /* CursoAula2.xcdatamodel */,
+				C754539F1E6AF27A004C6CA1 /* CursoAula2.xcdatamodel */,
 			);
-			currentVersion = C75453701E6ADDBA004C6CA1 /* CursoAula2.xcdatamodel */;
+			currentVersion = C754539F1E6AF27A004C6CA1 /* CursoAula2.xcdatamodel */;
 			path = CursoAula2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
